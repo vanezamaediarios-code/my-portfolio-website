@@ -200,3 +200,7 @@ body {
 html, body {
   overflow-x: hidden;
 }
+
+.footer {
+  background-color: #B0C4DE;
+}
