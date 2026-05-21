@@ -146,9 +146,9 @@
 							
 						</form>
 
-                        <div class="d-flex justify-content-start mt-2">
+                        <!-- <div class="d-flex justify-content-start mt-2">
                             <div ref="recaptchaContainer"></div>
-                        </div>
+                        </div> -->
 					
 				</div>
 			</div>
