@@ -141,7 +141,7 @@
 							</div>
 
 							<div class="text-center">
-								<button type="button" class="btn btn-primary btn-outline-light p-2" :disabled="isLoading">{{isLoading ? "Sending..." : "Submit"}}</button>
+								<button type="submit" class="btn btn-primary btn-outline-light p-2" :disabled="isLoading">{{isLoading ? "Sending..." : "Submit"}}</button>
 							</div>
 							
 						</form>
