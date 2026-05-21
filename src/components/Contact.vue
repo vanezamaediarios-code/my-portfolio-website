@@ -123,21 +123,21 @@
 				<h1 class="text-center p-5 mt-5 contact-form">CONTACT ME</h1>
 				<div class="col-md-6">
 
-						<form class="p-4 border rounded shadow-sm">
+						<form @submit.prevent="submitForm" class="p-4 border rounded shadow-sm">
 
 							<div class="mb-3">
 								<label for="full_name" class="form-label">Full Name:</label>
-								<input class="form-control" type="text" name="full_name" id="full_name" placeholder="Enter your name" autocomplete>
+								<input class="form-control" v-model="name" type="text" name="full_name" id="full_name" placeholder="Enter your name" autocomplete>
 							</div>
 
 							<div class="mb-3">
 								<label for="email">Email Address:</label>
-								<input class="form-control" type="email" name="email" id="email" placeholder="email@example.com">
+								<input class="form-control" v-model="email" type="email" name="email" id="email" placeholder="email@example.com">
 							</div>
 
 							<div class="mb-3">
 								<label for="message" class="form-label">Message:</label>
-								<textarea class="form-control" name="message" rows="5" id="message" placeholder="Enter your message"></textarea>
+								<textarea class="form-control" v-model="message" name="message" rows="5" id="message" placeholder="Enter your message"></textarea>
 							</div>
 
 							<div class="text-center">
